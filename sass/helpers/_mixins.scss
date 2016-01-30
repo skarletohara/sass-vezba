@@ -1,0 +1,10 @@
+@mixin span {
+    color: aqua;
+}
+
+@mixin border {
+    border: 2px solid blueviolet;
+    @include span;
+}
+
+
